@@ -1,0 +1,21 @@
+{
+  "name": "NodeExpressWebdevelopment",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "DivyaPraksh"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.4.0"
+  }
+}
