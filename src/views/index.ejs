@@ -106,7 +106,7 @@
           
           
           <!--/stories-->
-          <div class="row">    
+          <!-- <div class="row">    
             <br>
             <div class="col-md-2 col-sm-3 text-center">
               <a class="story-title" href="#"><img alt="" src="http://api.randomuser.me/portraits/thumb/men/58.jpg" style="width:100px;height:100px" class="img-circle"></a>
@@ -200,17 +200,43 @@
             </div>
           </div>
           <hr>
-          <!--/stories-->
-          
+          /stories -->
+
+
+<div class="row">    
+            <br>
+            <div class="col-md-2 col-sm-3 text-center">
+              Login Existing User
+              <br>
+              <form name="signInForm"
+              action="/auth/signIn"
+              method="post">
+              <input name="userName" id="userName" value="UserName"><br>
+              <input name="password" id="password"value="Password"><br><br>
+              <b><input type="submit" value="Sign In"></b>
+            </form>
+    
+            </div>
+            <div class="col-md-10 col-sm-9">
+              Register Here
+              <br>
+              <form name="signUpForm"
+              action="/auth/signUp"
+              method="post">
+              <input name="userName" id="userName"value="UserName"><br>
+              <input name="password" id="password"value="Password"><br><br>
+             <b> <input type="submit" value="Sign Up"></b>
+            </form>
+              </div>
+
+          </div>
+
           
           <a href="/" class="btn btn-primary pull-right btnNext">More <i class="glyphicon glyphicon-chevron-right"></i></a>
         
           
         </div>
-      </div>
-                                                                                       
-	                                                
-                                                      
+      </div>                                               
    	</div><!--/col-12-->
   </div>
 </div>
