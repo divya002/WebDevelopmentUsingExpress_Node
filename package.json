@@ -17,13 +17,15 @@
     "ejs-lint": "^0.3.0",
     "express": "^4.15.3",
     "express-session": "^1.15.5",
+    "http": "0.0.0",
     "jade": "^1.11.0",
     "mongodb": "^2.2.31",
     "msnodesqlv8": "^0.3.1",
     "mssql": "^4.0.4",
     "mysql": "^2.14.1",
     "passport": "^0.4.0",
-    "passport-local": "^1.0.0"
+    "passport-local": "^1.0.0",
+    "xml2js": "^0.4.17"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
